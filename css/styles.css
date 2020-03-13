@@ -30,7 +30,7 @@ body {
         that dropdown menu's title should change as well (line96 code). But when text color is defined here
         then title color change doesn't happen. line96 code works correctly otherwise, as checked 
         with background color. 
-        And if remove this color property here (see git version named as 'no-color-defined'),
+        And if remove this color property here (see git branch named as 'no-color-defined'),
         then upon hovering on dropdown list items, that dropdown title changes color as well. But then the 
         purplish/bluish color of the hyperlink is visible*/
     padding: 0px 15px;
@@ -137,7 +137,7 @@ with more specific selectors (as in here), then that more specific selector shou
 }
 
 /* There's a big gap occurring by default on this div's start. 
-If put borders, then the gap disappears (see git version named as 'no-div-gap' ). But don't prefer this way.*/
+If put borders, then the gap disappears (see git branch named as 'no-div-gap' ). But don't prefer this way.*/
 #welcome {
     height: 475px;
     background-color: rgb(247, 247, 247);
