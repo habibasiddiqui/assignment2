@@ -25,7 +25,7 @@ body {
 
 #menu a {
     text-decoration: none;
-    color: black;
+/*     color: black;  */
         /* This color affects hover effect. When hover on dropdown list items,
         that dropdown menu's title should change as well (line96 code). But when text color is defined here
         then title color change doesn't happen. line96 code works correctly otherwise, as checked 
@@ -83,16 +83,7 @@ body {
     
 }
 
- /* NOT WORKING ON TEXT COLOR IF COLOR ALEADY USED IN  #menu 's property, works fine on bg-color though*/
-/* Change color of dropdown links on hover */
-/* .dropdown-content1 a:hover, .dropdown-content2 a:hover {
-    color: #1a75ff;
-}  REDUNDANT in this case (see #menu a:hover) however, if want to cahnge it to different colors, 
-or upon clicking/visiting etc, then use like this*/
-
 /* NOT WORKING ON TEXT COLOR IF color property ALEADY USED IN  #menu 's property; 
-works fine on bg-color though so it means there's some inheritance issue?? But when color is defined
-with more specific selectors (as in here), then that more specific selector should work, right? I don't know...*/
 /*Change color of the dropdown menu title when the dropdown content is shown */
 .dropdown1:hover .subMenu1, .dropdown2:hover .subMenu2 {
     color: #1a75ff;
@@ -136,12 +127,9 @@ with more specific selectors (as in here), then that more specific selector shou
     
 }
 
-/* There's a big gap occurring by default on this div's start. 
-If put borders, then the gap disappears (see git version named as 'no-div-gap' ). But don't prefer this way.*/
 #welcome {
     height: 475px;
     background-color: rgb(247, 247, 247);
-    /* border: 1px solid rgb(247, 247, 247);     */
 }
 #heading1 {
     
